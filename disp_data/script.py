@@ -1,4 +1,5 @@
 import json
+from . import data
 
 f = open('data.json')
 data = json.loads(f.read())
